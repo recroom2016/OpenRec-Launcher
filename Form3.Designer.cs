@@ -52,9 +52,10 @@
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label2.Location = new System.Drawing.Point(12, 32);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(168, 28);
+            this.label2.Size = new System.Drawing.Size(172, 35);
             this.label2.TabIndex = 9;
             this.label2.Text = "Custom Room:";
+            this.label2.UseCompatibleTextRendering = true;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // button1
@@ -75,9 +76,10 @@
             this.checkBox1.Font = new System.Drawing.Font("Consolas", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.checkBox1.Location = new System.Drawing.Point(12, 10);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(159, 26);
+            this.checkBox1.Size = new System.Drawing.Size(153, 27);
             this.checkBox1.TabIndex = 14;
             this.checkBox1.Text = "Private Rooms";
+            this.checkBox1.UseCompatibleTextRendering = true;
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
